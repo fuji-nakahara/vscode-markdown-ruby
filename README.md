@@ -1,48 +1,11 @@
-# markdown-ruby README
+# markdown-ruby
 
-This is the README for your extension "markdown-ruby". After writing up a brief description, we recommend including the following sections.
+This is the VS Code extention that adds {ruby|ルビ} syntax support to built-in markdown preview.  
+This extension is built on [markdown-it-ruby](https://github.com/lostandfound/markdown-it-ruby).
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- `{漢字|かんじ}` => `<ruby>漢字<rt>かんじ</rt></ruby>`
+- `{漢字|かん|じ}` => `<ruby>漢<rt>かん</rt>字<rt>じ</rt></ruby>`
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+![screenshot](images/screenshot.png)
