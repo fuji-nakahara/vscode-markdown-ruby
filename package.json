@@ -12,6 +12,9 @@
     ],
     "activationEvents": [],
     "main": "./extension",
+    "contributes": {
+        "markdown.markdownItPlugins": true
+    },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test"
@@ -22,5 +25,8 @@
         "eslint": "^4.11.0",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "markdown-it-ruby": "^0.1.1"
     }
 }
