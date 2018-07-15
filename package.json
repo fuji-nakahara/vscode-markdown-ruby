@@ -2,7 +2,7 @@
     "name": "markdown-ruby",
     "displayName": "Markdown Ruby",
     "description": "Adds ruby syntax support to VS Code's built-in markdown preview",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "fuji-nakahara",
     "engines": {
         "vscode": "^1.25.0"
