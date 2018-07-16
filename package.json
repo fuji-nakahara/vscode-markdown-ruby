@@ -15,6 +15,7 @@
     "contributes": {
         "markdown.markdownItPlugins": true
     },
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/fuji-nakahara/vscode-markdown-ruby"
