@@ -24,10 +24,10 @@
         "postinstall": "node ./node_modules/vscode/bin/install"
     },
     "devDependencies": {
-        "@types/node": "^7.0.43",
+        "@types/node": "^7.10.3",
         "eslint": "^4.11.0",
         "typescript": "^2.6.1",
-        "vscode": "^1.1.6"
+        "vscode": "^1.1.29"
     },
     "dependencies": {
         "markdown-it-ruby": "^0.1.1"
