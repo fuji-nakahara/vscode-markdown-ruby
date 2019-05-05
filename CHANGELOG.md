@@ -6,6 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+- Update devDependencies
+
 ## [1.0.1] - 2019-02-16
 
 - Update dependencies
