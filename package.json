@@ -27,7 +27,7 @@
         "@types/node": "^7.10.3",
         "eslint": "^5.16.0",
         "typescript": "^3.5.2",
-        "vscode": "^1.1.33"
+        "vscode": "^1.1.34"
     },
     "dependencies": {
         "markdown-it-ruby": "^0.1.1"
